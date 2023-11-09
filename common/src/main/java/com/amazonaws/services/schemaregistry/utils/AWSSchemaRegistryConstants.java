@@ -21,7 +21,7 @@ public final class AWSSchemaRegistryConstants {
     /**
      * Proxy URL to use while connecting to AWS endpoint.
      */
-    public static final String PROXY_URL = "proxyUrl";
+    public static final String PROXY_URL = "proxy.url";
     /**
      * AWS endpoint to use while initializing the client for service.
      */
@@ -67,35 +67,35 @@ public final class AWSSchemaRegistryConstants {
     /**
      * Schema name.
      */
-    public static final String SCHEMA_NAME = "schemaName";
+    public static final String SCHEMA_NAME = "schema.name";
     /**
      * Schema Generation Class.
      */
-    public static final String SCHEMA_NAMING_GENERATION_CLASS = "schemaNameGenerationClass";
+    public static final String SCHEMA_NAMING_GENERATION_CLASS = "schema.name.generation.class";
     /**
      * Default schema strategy class.
      */
-    public static final String DEFAULT_SCHEMA_STRATEGY = "AWSSchemaNamingStrategyDefaultImpl";
+    public static final String DEFAULT_SCHEMA_STRATEGY = "aws.schema.naming.strategy.default.impl";
     /**
      * Data format.
      */
-    public static final String DATA_FORMAT = "dataFormat";
+    public static final String DATA_FORMAT = "data.format";
     /**
      * Cache time to live.
      */
-    public static final String CACHE_TIME_TO_LIVE_MILLIS = "timeToLiveMillis";
+    public static final String CACHE_TIME_TO_LIVE_MILLIS = "time.to.live.millis";
     /**
      * Cache Size.
      */
-    public static final String CACHE_SIZE = "cacheSize";
+    public static final String CACHE_SIZE = "cache.size";
     /**
      * AVRO record type.
      */
-    public static final String AVRO_RECORD_TYPE = "avroRecordType";
+    public static final String AVRO_RECORD_TYPE = "avro.record.type";
     /**
      * Protobuf Message type.
      */
-    public static final String PROTOBUF_MESSAGE_TYPE = "protobufMessageType";
+    public static final String PROTOBUF_MESSAGE_TYPE = "protobuf.message.type";
     /**
      * Registry Name.
      */
@@ -121,7 +121,7 @@ public final class AWSSchemaRegistryConstants {
      * deserializer, if client passes and will be used if magic bytes does not
      * belong to AWS.
      */
-    public static final String SECONDARY_DESERIALIZER = "secondaryDeserializer";
+    public static final String SECONDARY_DESERIALIZER = "secondary.deserializer";
     /**
      * Schema version Id not found.
      */
@@ -142,7 +142,7 @@ public final class AWSSchemaRegistryConstants {
     /**
      * Config to allow auto registrations of Schema.
      */
-    public static final String SCHEMA_AUTO_REGISTRATION_SETTING = "schemaAutoRegistrationEnabled";
+    public static final String SCHEMA_AUTO_REGISTRATION_SETTING = "schema.auto.registration.enabled";
     /**
      * Tags for schema and registry.
      */
@@ -159,18 +159,18 @@ public final class AWSSchemaRegistryConstants {
     /**
      * Jackson serialization features.
      */
-    public static final String JACKSON_SERIALIZATION_FEATURES = "jacksonSerializationFeatures";
+    public static final String JACKSON_SERIALIZATION_FEATURES = "jackson.serialization.features";
 
     /**
      * Jackson deserialization features.
      */
-    public static final String JACKSON_DESERIALIZATION_FEATURES = "jacksonDeserializationFeatures";
+    public static final String JACKSON_DESERIALIZATION_FEATURES = "jackson.deserialization.features";
 
     /**
      * Name of the UserAgent application using the serializer/de-serializer library.
      * Ex: KPL, Kafka, KafkaConnect etc.
      */
-    public static final String USER_AGENT_APP = "userAgentApp";
+    public static final String USER_AGENT_APP = "user.agent.app";
 
     /**
      * Private constructor to avoid initialization of the class.
